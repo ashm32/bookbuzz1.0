@@ -1,0 +1,27 @@
+/* BOOKAPI style */
+
+:root {
+  --light-pink: #F8D7DC;
+  --lightest-pink: #FCEFF3;
+  --light-green: #F9ECE4;
+  --light-beige: #FDF2E8;
+  --lightest-beige: #FAF6F3;
+  --light-pink3: #F6D1D7;
+  --dark-pink: #C88A95;
+  --light-yellow: #FEE0E3;
+  --dark-pink2: #D69FA6;
+}
+
+#bookResults > h2 {
+  background-color: var(--lightest-beige);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'AlikeAngular';
+  color: var(--dark-pink);
+  width: 500px;
+}
+
+#bookResults {
+  background-color: rgba(255, 255, 255, 0);
+}

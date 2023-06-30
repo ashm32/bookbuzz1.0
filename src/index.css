@@ -1,0 +1,32 @@
+/* INDEX styling */
+
+@font-face { 
+  font-family: Lato; 
+  src: url('./assets/fonts/Lato/Lato-Regular.ttf'); 
+} 
+
+@font-face { 
+  font-family: AlikeAngular-Regular; 
+  src: url('./assets/fonts/AlikeAngular-Regular.ttf'); 
+} 
+
+* {
+   box-sizing: border-box;  /* Bootstrap default */
+  }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('./assets/images/beeBackground.png');
+  background-repeat: repeat;
+  overflow: scroll; /* Show scrollbars */
+}
+
+body >img {opacity: 0.75;}
+
+.container {
+  width: 1000px !important;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0;
+  height: auto;
+}

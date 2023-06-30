@@ -1,0 +1,75 @@
+:root {
+  --light-pink: #F8D7DC;
+  --lightest-pink: #FCEFF3;
+  --light-green: #F9ECE4;
+  --light-beige: #FDF2E8;
+  --lightest-beige: #FAF6F3;
+  --light-pink3: #F6D1D7;
+  --dark-pink: #C88A95;
+  --light-yellow: #FEE0E3;
+  --dark-pink2: #D69FA6;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--light-pink3);
+  color: var(--dark-pink);
+}
+
+#HelpBlock {
+  padding-left: 10px;
+}
+
+input.me-2.form-control {
+  line-height: 40px !important;
+  font-size: 20px;
+  background-color: var(--light-beige);
+  border: 1px solid var(--dark-pink2);
+  color: var(--light-green);
+}
+
+button.btn.btn-outline-success {
+  border: 1px solid var(--dark-pink2);
+  border-radius: 25px !important;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--dark-pink2);
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+button.btn.btn-outline-success:hover {
+  background-color: var(--lightest-pink);
+  color: var(--dark-pink);
+  border: 1px solid var(--dark-pink);
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #searchBar {
+    width: 60% !important;
+  }
+
+  input.me-2.form-control {
+    line-height: 30px !important;
+    font-size: 18px;
+  }
+
+  button.btn.btn-outline-success {
+    font-size: 18px;
+  }
+}

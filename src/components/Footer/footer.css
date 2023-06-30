@@ -1,0 +1,41 @@
+:root {
+  --light-pink: #F8D7DC;
+  --lightest-pink: #FCEFF3;
+  --light-green: #F9ECE4;
+  --light-beige: #FDF2E8;
+  --lightest-beige: #FAF6F3;
+  --light-pink3: #F6D1D7;
+  --dark-pink: #C88A95;
+  --light-yellow: #FEE0E3;
+  --dark-pink2: #D69FA6;
+}
+
+.footer {
+  background: var(--light-pink);
+  margin: 0 -12px;
+  padding-top: 10px;
+  border: 3px solid var(--lightest-beige);
+}
+
+.socialMedia svg {
+  color: var(--light-green);
+  margin: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.socialMedia svg:hover {
+  transform: scale(1.5);
+  color: var(--dark-pink);
+}
+
+.footer p {
+  color: var(--light-green);
+}
+
+.btt {
+  border: 1px dashed var(--lightest-beige) !important;
+  height: 100px;
+  opacity: 0;
+}
